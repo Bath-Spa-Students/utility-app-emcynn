@@ -58,8 +58,15 @@ for category, items in menu.items():
 
 # User inserting cash
 def cash_input():
-    time.sleep(1)
-    return float(input("Please insert your cash: "))
+    while True:
+        try:
+            balance = float(input("Please insert your cash: "))
+            if balance > 0:
+                return balance
+            else:
+                print("Invalid amount. Please enter a positive number.")
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
 
 # User selecting a snack or drink 
 def select_item(menu, balance):
