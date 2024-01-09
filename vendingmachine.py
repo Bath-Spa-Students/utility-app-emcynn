@@ -6,12 +6,12 @@ from rich import print
 
 # Header
 print('''[bright_magenta]
-                                    █░█ █▀▀ █▄░█ █▀▄ █ █▄░█ █▀▀   █▀▄▀█ ▄▀█ █▀▀ █░█ █ █▄░█ █▀▀
-                                    ▀▄▀ ██▄ █░▀█ █▄▀ █ █░▀█ █▄█   █░▀░█ █▀█ █▄▄ █▀█ █ █░▀█ ██▄
+                                                  █░█ █▀▀ █▄░█ █▀▄ █ █▄░█ █▀▀   █▀▄▀█ ▄▀█ █▀▀ █░█ █ █▄░█ █▀▀
+                                                  ▀▄▀ ██▄ █░▀█ █▄▀ █ █░▀█ █▄█   █░▀░█ █▀█ █▄▄ █▀█ █ █░▀█ ██▄
       [/bright_magenta]''')
 
 # Welcome prompt
-print('\t\t\t\t Welcome! Enjoy a quick snack or drink from my vending machine :)')
+print('\t\t\t\t\t\tWelcome! Enjoy a quick snack or drink from my vending machine :)')
 
 # Vending machine items, prices, and stocks
 menu = {
